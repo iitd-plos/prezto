@@ -1,7 +1,7 @@
 install::
-	ln -s $(HOME)/.zprezto/runcoms/zlogin .zlogin
-	ln -s $(HOME)/.zprezto/runcoms/zlogout .zlogout
-	ln -s $(HOME)/.zprezto/runcoms/zpreztorc .zpreztorc
-	ln -s $(HOME)/.zprezto/runcoms/zprofile .zprofile
-	ln -s $(HOME)/.zprezto/runcoms/zshenv .zshenv
-	ln -s $(HOME)/.zprezto/runcoms/zshrc .zshrc
+	ln -sf $(HOME)/.zprezto/runcoms/zlogin $(HOME)/.zlogin
+	ln -sf $(HOME)/.zprezto/runcoms/zlogout $(HOME)/.zlogout
+	ln -sf $(HOME)/.zprezto/runcoms/zpreztorc $(HOME)/.zpreztorc
+	ln -sf $(HOME)/.zprezto/runcoms/zprofile $(HOME)/.zprofile
+	ln -sf $(HOME)/.zprezto/runcoms/zshenv $(HOME)/.zshenv
+	ln -sf $(HOME)/.zprezto/runcoms/zshrc $(HOME)/.zshrc
