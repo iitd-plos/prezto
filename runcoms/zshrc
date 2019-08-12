@@ -5,11 +5,6 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
-
 # Customize to your needs...
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -49,6 +44,12 @@ export PATH=$HOME/bin:$HOME/.cabal/bin:$PATH:/usr/local/texlive/2018/bin/x86_64-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+
 setopt clobber
 alias cp=cp
 unalias cp
