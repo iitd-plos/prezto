@@ -1,5 +1,6 @@
 #README
-# git clone --recurse-submodules https://github.com/sorin-ionescu/prezto.git
+# git clone --recurse-submodules https://github.com/sorin-ionescu/prezto.git .zprezto
+# cd .zprezto
 # git remote add myfork https://bsorav@github.com/iitd-plos/prezto
 # git pull myfork master
 
