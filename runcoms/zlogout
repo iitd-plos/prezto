@@ -38,6 +38,9 @@ SAYINGS=(
     "Before you attempt to beat the Odds, Be sure that you could survive the Odds Beating You.\n  -- From a poster on despair.com"
     "Don't try to buy at the bottom and sell at the top. It can't be done except by liars.\n  -- Bernard Baruch\n"
     "To have a second language is to have a second soul.\n -- Charlemagne\n"
+    "The limits of my language means the limits of my world.\n -- Ludwig Wittgenstein\n"
+    "If people never did silly things nothing intelligent would ever get done.\n -- Ludwig Wittgenstein\n"
+    "Not how the world is, but that it is, is the mystery.\b  -- Ludwig Wittgenstein\n"
 )
 
 # Print a randomly-chosen message:
