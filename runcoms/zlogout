@@ -37,6 +37,7 @@ SAYINGS=(
     "Fire is the test of gold; adversity, of strong men\n-- Seneca, the Greek Philosopher"
     "Before you attempt to beat the Odds, Be sure that you could survive the Odds Beating You.\n  -- From a poster on despair.com"
     "Don't try to buy at the bottom and sell at the top. It can't be done except by liars.\n  -- Bernard Baruch\n"
+    "To have a second language is to have a second soul.\n -- Charlemagne\n"
 )
 
 # Print a randomly-chosen message:

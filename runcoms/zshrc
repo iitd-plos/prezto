@@ -57,3 +57,4 @@ alias mv=mv
 unalias mv
 alias rm=rm
 unalias rm
+export DISTCC_HOSTS='--randomize localhost/10 glados/2'
