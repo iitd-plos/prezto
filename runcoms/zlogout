@@ -37,6 +37,11 @@ SAYINGS=(
     "Fire is the test of gold; adversity, of strong men\n-- Seneca, the Greek Philosopher"
     "Before you attempt to beat the Odds, Be sure that you could survive the Odds Beating You.\n  -- From a poster on despair.com"
     "Don't try to buy at the bottom and sell at the top. It can't be done except by liars.\n  -- Bernard Baruch\n"
+    "To have a second language is to have a second soul.\n -- Charlemagne\n"
+    "The limits of my language means the limits of my world.\n -- Ludwig Wittgenstein\n"
+    "If people never did silly things nothing intelligent would ever get done.\n -- Ludwig Wittgenstein\n"
+    "Not how the world is, but that it is, is the mystery.\b  -- Ludwig Wittgenstein\n"
+    "To understand a joke, you have to belong to that parish, that community of understanding. And if you feel you belong to that community of understanding of getting that joke, then you will laugh at almost anything that reinforces your sense of belonging to that group.  -- Anthony McCarten in his TEDx talk at around 12:00\n"
 )
 
 # Print a randomly-chosen message:
