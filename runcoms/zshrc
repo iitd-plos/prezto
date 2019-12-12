@@ -66,3 +66,4 @@ alias dz="cd $HOME/diary && cat >> `date +%F`&& date +%c | tac >> `date +%F`"
 export SUPEROPT_ROOT=$HOME/superopt-project
 git config --global diff.submodule log
 git config --global credential.helper 'cache --timeout=6000000'
+source /usr/share/autojump/autojump.sh
