@@ -57,3 +57,12 @@ alias mv=mv
 unalias mv
 alias rm=rm
 unalias rm
+
+#export LLVM_UNSEQ=$HOME/llvm-8.0.0
+#export CLANG_UNSEQ="$LLVM_UNSEQ/build/bin/clang -Xclang -load -Xclang $LLVM_UNSEQ/build/lib/UnsequencedAliasVisitor.so -Xclang -add-plugin -Xclang unseq -mllvm -enable-aa-eval -save-stats"
+#export CLANG="$LLVM_UNSEQ/build/bin/clang -mllvm -enable-aa-eval -save-stats"
+export DISTCC_HOSTS='--randomize localhost glados/2 workstation/16'
+alias dz="cd $HOME/diary && cat >> `date +%F`&& date +%c | tac >> `date +%F`"
+export SUPEROPT_ROOT=$HOME/superopt-project
+git config --global diff.submodule log
+git config --global credential.helper 'cache --timeout=6000000'
