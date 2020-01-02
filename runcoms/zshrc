@@ -63,9 +63,8 @@ unalias rm
 export DISTCC_HOSTS='--randomize localhost/10 glados/2'
 alias dz="cd $HOME/diary && cat >> `date +%F`&& date +%c | tac >> `date +%F`"
 export SUPEROPT_INSTALL_FILES_DIR=$HOME/superopt-install
-export SUPEROPT_INSTALL_DIR=$SUPEROPT_INSTALL_DIR
+export SUPEROPT_INSTALL_DIR=$SUPEROPT_INSTALL_FILES_DIR
 #export SUPEROPT_INSTALL_DIR=/usr/local
-#export SUPEROPT_ROOT=$HOME/superopt-project
 export SUPEROPT_TARS_DIR=$HOME/superopt-project/tars
 git config --global diff.submodule log
 git config --global credential.helper 'cache --timeout=6000000'
