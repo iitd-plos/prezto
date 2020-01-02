@@ -40,7 +40,6 @@ export OCAMLRUNPARAM=b
 
 # OPAM configuration
 . $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
-export PATH=$HOME/bin:$HOME/.cabal/bin:$PATH:/usr/local/texlive/2018/bin/x86_64-linux:/opt/intel/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -61,9 +60,15 @@ unalias rm
 #export LLVM_UNSEQ=$HOME/llvm-8.0.0
 #export CLANG_UNSEQ="$LLVM_UNSEQ/build/bin/clang -Xclang -load -Xclang $LLVM_UNSEQ/build/lib/UnsequencedAliasVisitor.so -Xclang -add-plugin -Xclang unseq -mllvm -enable-aa-eval -save-stats"
 #export CLANG="$LLVM_UNSEQ/build/bin/clang -mllvm -enable-aa-eval -save-stats"
-export DISTCC_HOSTS='--randomize localhost glados/2 workstation/16'
+export DISTCC_HOSTS='--randomize localhost/10 glados/2'
 alias dz="cd $HOME/diary && cat >> `date +%F`&& date +%c | tac >> `date +%F`"
-export SUPEROPT_ROOT=$HOME/superopt-project
+export SUPEROPT_INSTALL_FILES_DIR=$HOME/superopt-install
+export SUPEROPT_INSTALL_DIR=$SUPEROPT_INSTALL_DIR
+#export SUPEROPT_INSTALL_DIR=/usr/local
+#export SUPEROPT_ROOT=$HOME/superopt-project
+export SUPEROPT_TARS_DIR=$HOME/superopt-project/tars
 git config --global diff.submodule log
 git config --global credential.helper 'cache --timeout=6000000'
 source /usr/share/autojump/autojump.sh
+export COMPILER_PATH=/home/sbansal/bin
+export PATH=$HOME/bin:$HOME/.cabal/bin:$PATH:/usr/local/texlive/2018/bin/x86_64-linux:/opt/intel/bin:$SUPEROPT_INSTALL_DIR/bin
