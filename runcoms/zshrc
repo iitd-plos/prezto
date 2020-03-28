@@ -67,8 +67,10 @@ export SUPEROPT_INSTALL_FILES_DIR=$HOME/superopt-install
 export SUPEROPT_INSTALL_DIR=/usr/local
 export SUPEROPT_PROJECT_DIR=$HOME/superopt-project
 export SUPEROPT_TARS_DIR=$SUPEROPT_PROJECT_DIR/tars
+export ICC_INSTALL_DIR=/opt/intel
 git config --global diff.submodule log
 git config --global credential.helper 'cache --timeout=6000000'
 source /usr/share/autojump/autojump.sh
 export COMPILER_PATH=/home/sbansal/bin
 export PATH=$HOME/bin:$HOME/.cabal/bin:$PATH:/usr/local/texlive/2018/bin/x86_64-linux:/opt/intel/bin:$SUPEROPT_INSTALL_DIR/bin
+sudo setcap cap_net_bind_service=+eip /usr/local/bin/node
