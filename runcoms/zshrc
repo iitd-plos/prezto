@@ -23,9 +23,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-#export http_proxy=http://proxy82.iitd.ac.in:3128/
-#export https_proxy=http://proxy82.iitd.ac.in:3128/
-#export ftp_proxy=http://proxy82.iitd.ac.in:3128/
+export http_proxy=http://proxy82.iitd.ac.in:3128/
+export https_proxy=http://proxy82.iitd.ac.in:3128/
+export ftp_proxy=http://proxy82.iitd.ac.in:3128/
 export EDITOR=/usr/bin/vim
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
