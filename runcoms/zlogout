@@ -44,7 +44,8 @@ SAYINGS=(
     "To understand a joke, you have to belong to that parish, that community of understanding. And if you feel you belong to that community of understanding of getting that joke, then you will laugh at almost anything that reinforces your sense of belonging to that group.  -- Anthony McCarten in his TEDx talk at around 12:00\n"
     "Everybody has a plan until they get punched in the mouth.  -- Mike Tyson on his opponents’ prefight strategies\n"
     "I skate to where the puck is going to be. Not where it has been.  -- Wayne Gretzky\n"
-   "If you don't have a competitive advantage, don't compete. -- Jack Welch\n"
+    "If you don't have a competitive advantage, don't compete. -- Jack Welch\n"
+    "CS is the field where the longer you are in it the less you know. -- Anonymous\n"
 )
 
 # Print a randomly-chosen message:
