@@ -46,6 +46,7 @@ SAYINGS=(
     "I skate to where the puck is going to be. Not where it has been.  -- Wayne Gretzky\n"
     "If you don't have a competitive advantage, don't compete. -- Jack Welch\n"
     "CS is the field where the longer you are in it the less you know. -- Anonymous\n"
+    "Most people problems can be traced back to a point of miscommunication. -- Anonymous\n"
 )
 
 # Print a randomly-chosen message:
